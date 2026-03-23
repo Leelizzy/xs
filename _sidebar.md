@@ -1,3 +1,3 @@
-- [首页](/)
-- [关于我](/about.md)
-- [项目展示](/projects.md)
+- [🏠 首页](README.md)
+- [关于我](about.md)
+- [项目展示](projects.md)
