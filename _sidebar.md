@@ -1,3 +1,3 @@
-- [🏠 首页](homd.md)
+- [🏠 首页](home.md)
 - [关于我](about.md)
 - [项目展示](projects.md)
