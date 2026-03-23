@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>我的私人档案馆</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- 引入 Docsify 主题 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
+  <style>
+    /* 自定义一点样式，让阅读更舒服 */
+    .markdown-section { max-width: 800px; }
+    blockquote { border-left: 4px solid #42b983; background-color: #f8f8f8; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '📂 我的私人档案馆', // 网站左上角的名字
+      repo: '', // 如果想显示 GitHub 图标，这里填你的仓库地址
+      loadSidebar: true, // 开启侧边栏
+      subMaxLevel: 2, // 目录层级
+      auto2top: true, // 切换页面自动回到顶部
+      search: { // 开启站内搜索
+        paths: 'auto',
+        placeholder: '🔍 搜索存档...',
+        noData: '😭 找不到相关内容!',
+        depth: 3
+      },
+      pagination: { // 开启上下页翻页
+        previousText: '上一篇',
+        nextText: '下一篇',
+      }
+    }
+  </script>
+  <!-- 引入 Docsify 核心脚本 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 引入搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 引入翻页插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
